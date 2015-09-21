@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1070283B1512A15C0023CBE1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1070283A1512A15C0023CBE1 /* Cocoa.framework */; };
+		107028451512A15C0023CBE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 107028431512A15C0023CBE1 /* InfoPlist.strings */; };
+		107028471512A15C0023CBE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 107028461512A15C0023CBE1 /* main.m */; };
+		1070284B1512A15C0023CBE1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 107028491512A15C0023CBE1 /* Credits.rtf */; };
+		1070284E1512A15C0023CBE1 /* SFDocument.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1070284D1512A15C0023CBE1 /* SFDocument.mm */; };
+		107028511512A15C0023CBE1 /* SFDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1070284F1512A15C0023CBE1 /* SFDocument.xib */; };
+		107028541512A15D0023CBE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107028521512A15D0023CBE1 /* MainMenu.xib */; };
+		E4671EAE16BB2E000031D59D /* kraken.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4C7914216BA7ADC0008F767 /* kraken.framework */; };
+		E4C7914916BA7B020008F767 /* kraken_standard_assets_osx.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4C7914616BA7ADC0008F767 /* kraken_standard_assets_osx.bundle */; };
+		E4C7914A16BA7B0F0008F767 /* kraken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C7914216BA7ADC0008F767 /* kraken.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4671EAB16BB2BAF0031D59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C7913816BA7ADB0008F767 /* Kraken.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4C8E4F316B9B2E20031DDCB;
+			remoteInfo = "Kraken Standard Assets - OSX";
+		};
+		E4C7913F16BA7ADC0008F767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C7913816BA7ADB0008F767 /* Kraken.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E491016113C99B9E0098455B;
+			remoteInfo = "Kraken - ios";
+		};
+		E4C7914116BA7ADC0008F767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C7913816BA7ADB0008F767 /* Kraken.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4BBBB7E1512A40300F43B5B;
+			remoteInfo = "Kraken - osx";
+		};
+		E4C7914316BA7ADC0008F767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C7913816BA7ADB0008F767 /* Kraken.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4C8E4E416B9B2D50031DDCB;
+			remoteInfo = "Kraken Standard Assets - iOS";
+		};
+		E4C7914516BA7ADC0008F767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C7913816BA7ADB0008F767 /* Kraken.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4C8E4F416B9B2E20031DDCB;
+			remoteInfo = "Kraken Standard Assets - OSX";
+		};
+		E4C7914716BA7AF20008F767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C7913816BA7ADB0008F767 /* Kraken.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BBBB7D1512A40300F43B5B;
+			remoteInfo = "Kraken - osx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10368AB31540B3A400E2AE93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E4671EAE16BB2E000031D59D /* kraken.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		107028361512A15C0023CBE1 /* KRImport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRImport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1070283A1512A15C0023CBE1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1070283D1512A15C0023CBE1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1070283E1512A15C0023CBE1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1070283F1512A15C0023CBE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		107028421512A15C0023CBE1 /* KRImport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KRImport-Info.plist"; sourceTree = "<group>"; };
+		107028441512A15C0023CBE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		107028461512A15C0023CBE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		107028481512A15C0023CBE1 /* KRImport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "KRImport-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1070284A1512A15C0023CBE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1070284C1512A15C0023CBE1 /* SFDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SFDocument.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1070284D1512A15C0023CBE1 /* SFDocument.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = SFDocument.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		107028501512A15C0023CBE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SFDocument.xib; sourceTree = "<group>"; };
+		107028531512A15D0023CBE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		107028751512B0630023CBE1 /* libPVRTexLib.a */ = {isa = PBXFileReference; name = libPVRTexLib.a; path = Utilities/PVRTexLib/MacOS/libPVRTexLib.a; sourceTree = PVRSDK; };
+		107028761512B0630023CBE1 /* PVRTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTArray.h; sourceTree = "<group>"; };
+		107028771512B0630023CBE1 /* PVRTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTError.h; sourceTree = "<group>"; };
+		107028781512B0630023CBE1 /* PVRTexLibVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTexLibVersion.h; sourceTree = "<group>"; };
+		107028791512B0630023CBE1 /* PVRTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTexture.h; sourceTree = "<group>"; };
+		1070287A1512B0630023CBE1 /* PVRTextureDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTextureDefines.h; sourceTree = "<group>"; };
+		1070287B1512B0630023CBE1 /* PVRTextureFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTextureFormat.h; sourceTree = "<group>"; };
+		1070287C1512B0630023CBE1 /* PVRTextureHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTextureHeader.h; sourceTree = "<group>"; };
+		1070287D1512B0630023CBE1 /* PVRTextureUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTextureUtilities.h; sourceTree = "<group>"; };
+		1070287E1512B0630023CBE1 /* PVRTGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTGlobal.h; sourceTree = "<group>"; };
+		1070287F1512B0630023CBE1 /* PVRTMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTMap.h; sourceTree = "<group>"; };
+		107028801512B0630023CBE1 /* PVRTString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTString.h; sourceTree = "<group>"; };
+		107028811512B0630023CBE1 /* PVRTTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTTexture.h; sourceTree = "<group>"; };
+		E4C7913816BA7ADB0008F767 /* Kraken.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kraken.xcodeproj; path = ../../kraken/KREngine/Kraken.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107028331512A15C0023CBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C7914A16BA7B0F0008F767 /* kraken.framework in Frameworks */,
+				1070283B1512A15C0023CBE1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1070282B1512A15C0023CBE1 = {
+			isa = PBXGroup;
+			children = (
+				E4456939161CD1AA0052031E /* Externals */,
+				107028731512AFE20023CBE1 /* PVRTexLib */,
+				107028401512A15C0023CBE1 /* KRImport */,
+				107028391512A15C0023CBE1 /* Frameworks */,
+				107028371512A15C0023CBE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		107028371512A15C0023CBE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				107028361512A15C0023CBE1 /* KRImport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		107028391512A15C0023CBE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1070283D1512A15C0023CBE1 /* AppKit.framework */,
+				1070283E1512A15C0023CBE1 /* CoreData.framework */,
+				1070283F1512A15C0023CBE1 /* Foundation.framework */,
+				1070283A1512A15C0023CBE1 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		107028401512A15C0023CBE1 /* KRImport */ = {
+			isa = PBXGroup;
+			children = (
+				1070284C1512A15C0023CBE1 /* SFDocument.h */,
+				1070284D1512A15C0023CBE1 /* SFDocument.mm */,
+				1070284F1512A15C0023CBE1 /* SFDocument.xib */,
+				107028521512A15D0023CBE1 /* MainMenu.xib */,
+				107028411512A15C0023CBE1 /* Supporting Files */,
+			);
+			path = KRImport;
+			sourceTree = "<group>";
+		};
+		107028411512A15C0023CBE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				107028421512A15C0023CBE1 /* KRImport-Info.plist */,
+				107028431512A15C0023CBE1 /* InfoPlist.strings */,
+				107028461512A15C0023CBE1 /* main.m */,
+				107028481512A15C0023CBE1 /* KRImport-Prefix.pch */,
+				107028491512A15C0023CBE1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		107028731512AFE20023CBE1 /* PVRTexLib */ = {
+			isa = PBXGroup;
+			children = (
+				107028741512B0630023CBE1 /* MacOS_x86 */,
+				107028761512B0630023CBE1 /* PVRTArray.h */,
+				107028771512B0630023CBE1 /* PVRTError.h */,
+				107028781512B0630023CBE1 /* PVRTexLibVersion.h */,
+				107028791512B0630023CBE1 /* PVRTexture.h */,
+				1070287A1512B0630023CBE1 /* PVRTextureDefines.h */,
+				1070287B1512B0630023CBE1 /* PVRTextureFormat.h */,
+				1070287C1512B0630023CBE1 /* PVRTextureHeader.h */,
+				1070287D1512B0630023CBE1 /* PVRTextureUtilities.h */,
+				1070287E1512B0630023CBE1 /* PVRTGlobal.h */,
+				1070287F1512B0630023CBE1 /* PVRTMap.h */,
+				107028801512B0630023CBE1 /* PVRTString.h */,
+				107028811512B0630023CBE1 /* PVRTTexture.h */,
+			);
+			name = PVRTexLib;
+			path = KRImport;
+			sourceTree = "<group>";
+		};
+		107028741512B0630023CBE1 /* MacOS_x86 */ = {
+			isa = PBXGroup;
+			children = (
+				107028751512B0630023CBE1 /* libPVRTexLib.a */,
+			);
+			path = MacOS_x86;
+			sourceTree = "<group>";
+		};
+		E4456939161CD1AA0052031E /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7913816BA7ADB0008F767 /* Kraken.xcodeproj */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		E4C7913916BA7ADB0008F767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7914016BA7ADC0008F767 /* libkraken.a */,
+				E4C7914216BA7ADC0008F767 /* kraken.framework */,
+				E4C7914416BA7ADC0008F767 /* kraken_standard_assets_ios.bundle */,
+				E4C7914616BA7ADC0008F767 /* kraken_standard_assets_osx.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		107028351512A15C0023CBE1 /* KRImport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107028571512A15D0023CBE1 /* Build configuration list for PBXNativeTarget "KRImport" */;
+			buildPhases = (
+				107028321512A15C0023CBE1 /* Sources */,
+				107028331512A15C0023CBE1 /* Frameworks */,
+				107028341512A15C0023CBE1 /* Resources */,
+				10368AB31540B3A400E2AE93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4671EAC16BB2BAF0031D59D /* PBXTargetDependency */,
+				E4C7914816BA7AF20008F767 /* PBXTargetDependency */,
+			);
+			name = KRImport;
+			productName = KRImport;
+			productReference = 107028361512A15C0023CBE1 /* KRImport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1070282D1512A15C0023CBE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Sarofax;
+			};
+			buildConfigurationList = 107028301512A15C0023CBE1 /* Build configuration list for PBXProject "KRImport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1070282B1512A15C0023CBE1;
+			productRefGroup = 107028371512A15C0023CBE1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4C7913916BA7ADB0008F767 /* Products */;
+					ProjectRef = E4C7913816BA7ADB0008F767 /* Kraken.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				107028351512A15C0023CBE1 /* KRImport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4C7914016BA7ADC0008F767 /* libkraken.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libkraken.a;
+			remoteRef = E4C7913F16BA7ADC0008F767 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E4C7914216BA7ADC0008F767 /* kraken.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = kraken.framework;
+			remoteRef = E4C7914116BA7ADC0008F767 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E4C7914416BA7ADC0008F767 /* kraken_standard_assets_ios.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = kraken_standard_assets_ios.bundle;
+			remoteRef = E4C7914316BA7ADC0008F767 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E4C7914616BA7ADC0008F767 /* kraken_standard_assets_osx.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = kraken_standard_assets_osx.bundle;
+			remoteRef = E4C7914516BA7ADC0008F767 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		107028341512A15C0023CBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C7914916BA7B020008F767 /* kraken_standard_assets_osx.bundle in Resources */,
+				107028451512A15C0023CBE1 /* InfoPlist.strings in Resources */,
+				1070284B1512A15C0023CBE1 /* Credits.rtf in Resources */,
+				107028511512A15C0023CBE1 /* SFDocument.xib in Resources */,
+				107028541512A15D0023CBE1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		107028321512A15C0023CBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107028471512A15C0023CBE1 /* main.m in Sources */,
+				1070284E1512A15C0023CBE1 /* SFDocument.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4671EAC16BB2BAF0031D59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kraken Standard Assets - OSX";
+			targetProxy = E4671EAB16BB2BAF0031D59D /* PBXContainerItemProxy */;
+		};
+		E4C7914816BA7AF20008F767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kraken - osx";
+			targetProxy = E4C7914716BA7AF20008F767 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		107028431512A15C0023CBE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107028441512A15C0023CBE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		107028491512A15C0023CBE1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1070284A1512A15C0023CBE1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1070284F1512A15C0023CBE1 /* SFDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107028501512A15C0023CBE1 /* en */,
+			);
+			name = SFDocument.xib;
+			sourceTree = "<group>";
+		};
+		107028521512A15D0023CBE1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107028531512A15D0023CBE1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		107028551512A15D0023CBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"\"$(SRCROOT)/../kraken\"",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = KRImport;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../kraken\"/**";
+			};
+			name = Debug;
+		};
+		107028561512A15D0023CBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"\"$(SRCROOT)/../kraken\"",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = KRImport;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../kraken\"/**";
+			};
+			name = Release;
+		};
+		107028581512A15D0023CBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRImport/KRImport-Prefix.pch";
+				INFOPLIST_FILE = "KRImport/KRImport-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/KRImport/MacOS_x86\"",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		107028591512A15D0023CBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRImport/KRImport-Prefix.pch";
+				INFOPLIST_FILE = "KRImport/KRImport-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/KRImport/MacOS_x86\"",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		107028301512A15C0023CBE1 /* Build configuration list for PBXProject "KRImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107028551512A15D0023CBE1 /* Debug */,
+				107028561512A15D0023CBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107028571512A15D0023CBE1 /* Build configuration list for PBXNativeTarget "KRImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107028581512A15D0023CBE1 /* Debug */,
+				107028591512A15D0023CBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1070282D1512A15C0023CBE1 /* Project object */;
+}
